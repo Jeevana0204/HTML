@@ -1,0 +1,67 @@
+<html>
+<head></head>
+	<body>
+		<form method="post" action="table.html" enctype="multipart/form-data">
+			<table>
+				<tr>
+					<td>firstname</td>
+					<td><input type="text" name="fname" value="jeevana" maxlength="10"/></td>
+				</tr>
+				<tr>
+					<td>lastname</td>
+					<td><input type="text" name="lname" value="reddy" maxlength="10" readonly/></td>
+				</tr>
+				<tr>
+					<td>password</td>
+					<td><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+					<td>gender</td>
+					<td><input type="radio" name="gender" checked/>MALE
+					<td><input type="radio" name="gender"/>FEMALE</td>
+				</tr>
+				<tr>
+					<td>skills</td>
+					<td>
+						<input type="checkbox" name="skills" checked/>java
+						<input type="checkbox" name="skills"/>.Net
+						<input type="checkbox" name="skills"/>Oracle
+						<input type="checkbox" name="skills"/>Servlet
+					<td>
+				</tr>
+				<tr>
+					<td>location</td>
+					<td>
+						<select name="location" multiple>
+							
+							<option value="">select location</option>
+							<option value="hyderabad">hyderabad</option>
+							<option value="bangalore">bangalore</option>
+							<option value="chennai">chennai</option>
+							<option value="mumbai">mumbai</option>
+					</td>
+				</tr>
+				<tr>
+					<td>comments</td>
+					<td>
+						<textarea name="comments">
+						
+						</textarea>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>resume</td>
+					<td> <input type="file"></input></td>
+					
+					
+				</tr>
+				<tr>
+					<td>
+					<input type="submit" value="apply"/>
+					<input type="reset" value="clear"/>
+					</td>
+				</tr>
+			</form>
+	</body>
+			</table>

@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<body>
+			<script>
+					var arr=new Array();
+					arr[0]="Hyderabad"
+					arr[1]=10;
+					arr[2]=new Date();
+						for(var i=0;i<arr.length;i++)
+							{
+								document.write(arr[i]+"<br>");
+							}
+			</script>
+			<script>
+				var cities=new Array("Hyderabad","Bangalore","Chennai");
+				for(var i=0;i<cities.length;i++)
+							{
+								document.write(cities[i]+"<br>");
+							}
+			</script>
+			<script>
+				var arr1=new Array("Hyderabad","Bangalore","Chennai");
+				var result=arr1.join(",");
+				document.write(result);
+				document.write("<br>")
+			</script>
+			<script>
+				var arr1=new Array("Hyderabad","Bangalore","Chennai","Assam","Mumbai");
+				var result2=arr1.reverse();
+			document.write(result2);
+				document.write("<br>")
+			</script>
+			<script>
+				var arr1=new Array("Hyderabad","Bangalore","Chennai","Assam","Mumbai");
+				var result3=arr1.sort();
+			    document.write(result3);
+				document.write("<br>")
+			</script>
+			<script>
+				var arr2=new Array[9,2,27,29,33,65];
+				arr2.sort(function(a,b){return a-b});
+			    document.write(arr2);
+				document.write("<br>");
+				for(var i=0;i<arr2.length;i++)
+							{
+								document.write(arr2[i]+"<br>");
+							}
+				
+			</script>
+		</body>
+	</head>
+</head>

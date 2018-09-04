@@ -1,0 +1,35 @@
+<html>
+<head></head>
+<body>
+<script>
+var city="Hyderabad";
+function myFunc()
+	{
+	var result=document.forms[0].user.value;
+	alert(result);
+	}
+function myFunc1()
+	{
+	var result=document.forms[1].user.value;
+	alert(result);
+	}
+
+	</script>
+	<script>
+		var result=confirm("do you want to continue");
+		alert(result);
+	</script>
+	<script>
+		var result=prompt("Enter your name");
+		document.write("welcome "+result);
+	</script>
+<form>
+	User Name:<input type="text" name="user"/>
+</form>
+<form>
+	User:<input type="text" name="user"/>
+</form>
+			<input type="button" value="click me!!" onclick="myFunc()"/>
+			<input type="button" value="click me!!!" onclick="myFunc1()"/>
+</body>
+</html>
